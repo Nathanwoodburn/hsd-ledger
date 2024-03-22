@@ -1,5 +1,24 @@
 # hsd-ledger
 
+# RENEW ALL FUNCTION
+Bulk Ledger renews
+
+```
+git clone https://github.com/Nathanwoodburn/hsd-ledger.git
+git switch renew-all
+npm install
+```
+Update the api_key.txt file in bin to your HSD API key (used to get list of domains)
+
+Replacing <days-until-expiry> with the number of days until the domain expires (0 to renew all domains)
+Replace <your_api_key> with your HSD API key
+```
+cd bin
+node hsd-ledger renew <days-until-expiry> --api-key <your_api_key>
+```
+
+
+
 This is a client library for [ledger-app-hns][hns]. It uses primitives
 from [hsd][hsd].
 

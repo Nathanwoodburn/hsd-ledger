@@ -36,6 +36,7 @@
     "docs": "jsdoc -c jsdoc.json"
   },
   "dependencies": {
+    "axios": "^1.6.8",
     "blgr": "git+https://github.com/bcoin-org/blgr#semver:~0.1.7",
     "bmutex": "git+https://github.com/bcoin-org/bmutex#semver:~0.1.6",
     "bsert": "git+https://github.com/chjj/bsert#semver:~0.0.10",
